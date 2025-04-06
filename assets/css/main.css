@@ -84,9 +84,10 @@ html, body {
   border: 1px solid #111;
   line-height: 40px;
   margin: 0 10px;
-  color: #111;
+  color: #ffffff;
   font-size: 20px;
   padding-bottom: 20px;
+  border-color: #e7e7e7;
 }
 
 .social a:hover i {
@@ -106,7 +107,7 @@ html, body {
 		} */
 
   .btn-group-vertical {
-    padding: 20px 87.5px;
+    padding: 30px 87.5px;
   }
 
   .info {
@@ -140,6 +141,8 @@ html, body {
 	/*margin-left: 0px;*/
 }
 .btn-rabbit {
+  width: 100%;
+  padding-left: 90px;
   background-color: #fff;
   color: #111;
   font-style: italic;
@@ -158,7 +161,7 @@ html, body {
 }
 
 p {
-  color: #585757;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -341,7 +344,7 @@ h1 {
 
 .skill-btn {
   background-color: #fff;
-  color: #111;
+  color: #000000;
   font-style: italic;
   border: 1px solid #111;
   border-radius: 0px !important;
@@ -412,6 +415,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-color: #f9f9f9;
 }
 
 .skill-btn1:hover {
