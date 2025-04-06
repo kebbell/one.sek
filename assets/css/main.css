@@ -161,7 +161,7 @@ html, body {
 }
 
 p {
-  color: #ffffff;
+  color: #fbfbfb;
   font-size: 16px;
 }
 
@@ -186,7 +186,7 @@ p {
 }
 
 footer {
-  color: white; /* text white */
+  color: rgb(200, 200, 200); /* text white */
   position: fixed; /* Make the footer stick to the bottom */
   bottom: 0;
   padding: 5px 0 0 0;
@@ -288,7 +288,7 @@ footer {
   font-style: italic;
   font-weight: 600;
   font-size: 20px;
-  color: #3b3b3b;
+  color: #ffffff;
   line-height: 28px;
   font-family: "Crimson";
   margin-top: 25px;
