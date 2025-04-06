@@ -107,7 +107,7 @@ html, body {
 		} */
 
   .btn-group-vertical {
-    padding: 50px 87.5px;
+    padding: 50px 87.5px 10px 87.5px;
   }
 
   .info {
@@ -665,8 +665,8 @@ canvas {
 .container {
   margin: 0 auto;
 
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
   width: 100%;
   max-width: 1800px; /* adjust to your desired max width */
   height: 100vh; /* adjust to your desired max height */
@@ -730,7 +730,7 @@ canvas {
 
 
 #index_right {
-  padding-top: 40px; /* adjust based on actual height of the announcement bar */
+  padding-top: 20px; /* adjust based on actual height of the announcement bar */
 }
 
 @media (max-width: 768px) {
@@ -739,3 +739,95 @@ canvas {
   }
 }
 
+
+/* Further mobile customization for even smaller screens */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Even smaller font size for smaller screens */
+  }
+
+  .home-description {
+    font-size: 14px; /* Make home description text smaller */
+  }
+
+  .page-title {
+    font-size: 20px; /* Adjust page title size */
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row; /* Align social icons horizontally */
+    justify-content: space-evenly; /* Distribute icons evenly */
+    width: 100%; /* Take full width of the screen */
+    padding: 10px 0; /* Add some padding around the icons */
+  }
+
+  .social a {
+    flex: 1; /* Allow each social icon to take up equal space */
+    text-align: center; /* Center the icons inside the flex container */
+  }
+
+  .social a i {
+    width: 40px;
+    height: 40px;
+    font-size: 18px; /* Slightly larger icons for better visibility */
+    margin: 0 10px; /* Add spacing between the icons */
+    line-height: 40px;
+    border-radius: 50%; /* Circular icons */
+    background-color: #f0f0f0; /* Background color for the icons */
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .social a:hover i {
+    background-color: #bb9e7d; /* Change background color on hover */
+    color: #fff; /* Change icon color on hover */
+  }
+
+  .btn-rabbit {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px; /* Increase font size a bit */
+    width: 100%; /* Make buttons take full width */
+    margin-top: 10px; /* Add some space at the top of the buttons */
+  }
+
+  .btn-group-vertical {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    width: 100%;
+    align-items: center; /* Center the buttons horizontally */
+    gap: 15px; /* Add space between buttons */
+    padding-top: 15px; /* Space above the buttons */
+  }
+
+  footer {
+    font-size: 12px; /* Even smaller footer text for smaller devices */
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center the footer text */
+  }
+
+  /* Adjusting content wrapper */
+  .content-wrapper {
+    margin-top: 20px; /* Space below the announcement bar */
+    padding: 10px; /* Ensure the content is padded properly */
+  }
+
+  .main {
+    overflow: visible; /* Set to normal */
+  }
+
+  .container {
+    max-width: 100%; /* Full width on smaller screens */
+    padding: 0 10px;
+  }
+
+  .info {
+    font-size: 14px; /* Reduce font size in info section */
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px; /* Decrease line height for more compact text */
+    height: auto; /* Allow info section to grow */
+    overflow-y: auto; /* Allow scrolling if content exceeds */
+  }
+}
