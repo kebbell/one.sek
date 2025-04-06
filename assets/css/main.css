@@ -10,7 +10,7 @@ html, body {
  
 
 .main {
-  background: #f8f8f8;
+  background: #000000;
 }
 
 .home-description {
@@ -27,7 +27,7 @@ html, body {
 /* Basic styling for the announcement bar */
 .announcement-bar {
   width: 100%;
-  background-color: black; /* Black background */
+  background-color: rgb(255, 255, 255); /* Black background */
   overflow: hidden;
   position: sticky; /* Fixed at the top of the screen */
   top: 0;
@@ -39,7 +39,7 @@ html, body {
 /* Styling for the text within the bar */
 .announcement-text {
   display: inline-block;
-  color: white; /* White text color */
+  color: rgb(0, 0, 0); /* White text color */
   font-size: 16px;
   white-space: nowrap; /* Prevents text from breaking into multiple lines */
   padding-left: 100%; /* Pushes text offscreen to the right initially */
@@ -184,6 +184,7 @@ p {
 }
 
 footer {
+  color: white; /* text white */
   position: fixed; /* Make the footer stick to the bottom */
   bottom: 0;
   padding: 5px 0 0 0;
