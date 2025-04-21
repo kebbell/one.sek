@@ -31,12 +31,12 @@ $(document).ready(function () {
     $("#music_right").addClass("animated slideInRight");
   });
 
-  // $("#radio").click(function () {
-  //   $("#index").fadeOut();
-  //   $("#radio_scroll").fadeIn();
-  //   $("#radio_left").addClass("animated slideInLeft");
-  //   $("#radio_right").addClass("animated slideInRight");
-  // });
+  $("#radio").click(function () {
+    $("#index").fadeOut();
+    $("#radio_scroll").fadeIn();
+    $("#radio_left").addClass("animated slideInLeft");
+    $("#radio_right").addClass("animated slideInRight");
+  });
 
   $("#games").click(function () {
     $("#index").fadeOut();
@@ -127,9 +127,9 @@ $('#owl-demo .item').on('click', function() {
   window.open('https://github.com/kebbell?tab=repositories', '_blank');
 });
 
-$("#radio").click(function () {
-  window.open("https://kebbell.github.io/SEK", '_blank');
-});
+// $("#radio").click(function () {
+//   window.open("https://kebbell.github.io/SEK", '_blank');
+// });
 
 $(".skill-btn1").click(function() {
   const url = $(this).data("url");
