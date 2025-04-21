@@ -837,8 +837,9 @@ canvas {
   bottom: 125px;
   right: 250px;
   width: 200px;
-    height: 200px;
-    pointer-events: none; /* Allow clicks to pass through this element */
+  height: 200px;
+  pointer-events: none; /* Allow clicks to pass through this element */
+  z-index: 1;
 
 }
 
@@ -849,6 +850,7 @@ canvas {
     right: 450px;
     width: 5px;
     height: 5px;
+    z-index: 1;
     pointer-events: none; /* Allow clicks to pass through this element */
 
   }
@@ -908,7 +910,7 @@ canvas {
 audio {
   position: fixed;
   padding-top: 8px;
-  top: 40px;
+
   left: 50%;
   transform: translateX(-50%);
   width: 37%;
@@ -921,9 +923,9 @@ audio {
     transform: translateX(22%);
     width: 70%;
     position: fixed;
-    top: 40px;
+
     left: 0;
-    z-index: 1;
+    z-index: 0;
     opacity: 0.6;
   }
 }
