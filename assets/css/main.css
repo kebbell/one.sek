@@ -829,3 +829,9 @@ canvas {
     overflow-y: auto; /* Allow scrolling if content exceeds */
   }
 }
+
+.gif-clip {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
