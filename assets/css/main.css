@@ -834,11 +834,56 @@ canvas {
   position: fixed;
   bottom: 0;
   left: 0;
+  width: 300px;
+    height: 300px;
 }
 
 @media only screen and (max-width: 767px) {
-  .gif-clip img {
-    width: 150px;
-    height: 150px;
+  .gif-clip {
+    position: fixed;
+    bottom: 250px;
+    left: -150px;
+    width: 75px;
+    height: 75px;
   }
 }
+
+.gif-clip2 {
+  background-repeat: repeat;
+  background-size: cover;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
+  opacity: 0.4;
+  z-index: 0;
+  pointer-events: none; /* Allow clicks to pass through this element */
+
+  animation: move 10s ease-in-out infinite;
+
+  @media only screen and (max-width: 767px) {
+    top: 25px;
+    left: 25px;
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+  }
+}
+
+/* @keyframes move {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(-25vw, -25vh);
+  }
+  50% {
+    transform: translate(25vw, -25vh);
+  }
+  75% {
+    transform: translate(25vw, 25vh);
+  }
+  100% {
+    transform: translate(-25vw, 25vh);
+  }
+} */
