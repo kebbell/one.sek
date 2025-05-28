@@ -618,4 +618,3 @@ let gameInterval = setInterval(gameLoop, 1000 / fps);
 resetBtn.addEventListener('click', resetGame);
 backButton.addEventListener('click', goToHome);
 
-
