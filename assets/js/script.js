@@ -621,9 +621,3 @@ backButton.addEventListener('click', goToHome);
 // Start the game
 resetGame();
 
-// Add event listeners
-resetBtn.addEventListener('click', resetGame);
-backButton.addEventListener('click', goToHome);
-
-// Start the game
-resetGame();
