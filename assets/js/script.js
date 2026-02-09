@@ -620,3 +620,4 @@ backButton.addEventListener('click', goToHome);
 
 // Start the game
 resetGame();
+
