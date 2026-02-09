@@ -622,3 +622,4 @@ backButton.addEventListener('click', goToHome);
 resetGame();
 
 
+
